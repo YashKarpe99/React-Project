@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import {Outlet, Link} from "react-router-dom"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,12 +29,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <div>
-        <h1>This is Simple Website</h1>
-      </div>
-      <button onClick={() => setCount((count) => count + 1)}>
-        Click Me {count}
-      </button>
+      <nav style={{ display: "flex", gap: "20px" }}>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+      </nav>
+      <Outlet />
     </>
   )
 }
