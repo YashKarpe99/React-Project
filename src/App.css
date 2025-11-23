@@ -1,8 +1,24 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem 0.5rem 0;
   /* text-align: center; */
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  padding: 6px;
+}
+
+nav .link {
+  color: rgb(212, 197, 205);
+  font-size: 17px;
+  font-style: oblique;
+  font-weight: 700;
+  background-color: rgb(73, 73, 69);
+  padding: 10px;
+  border: 1px solid white;
 }
 
 /* .logo {

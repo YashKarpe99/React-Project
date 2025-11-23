@@ -1,0 +1,18 @@
+.Page{
+    background-color:rgb(230, 192, 192);
+    color: black;
+    text-align: center;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+    border: 1.5px solid rgb(120, 206, 130);
+}
+
+.ContactList {
+    display: list-item;
+    text-align: left;
+    list-style-type: disc;
+}
+
+.ContactInfo {
+    text-align: center;
+}
